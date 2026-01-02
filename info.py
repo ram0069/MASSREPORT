@@ -26,7 +26,7 @@ class Txt(object):
     SEND_TARGET_CHANNEL = """
 ( SEND THE TARGET CHANNEL LINK or USERNAME)
 
-☛ For e.g :- <code> @ </code> or <code> https:/t.me/itzdaxx </code>
+☛ For e.g :- <code> @ </code> or <code> https:/t.me/loda </code>
 """
 
     SEND_SESSION_MSG = """
