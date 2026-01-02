@@ -5,12 +5,12 @@ class Config(object):
     # Pyrogram Client
     API_ID    = int(os.environ.get("API_ID", "24509589"))  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "717cf21d94c4934bcbe1eaa1ad86ae75") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8083329920:AAEoQNvl-7cnXq7dQ2shY2qRlLFrKiawlCo") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8222243661:AAEHsLUo8aD2F_qK2g85LIZTn-oKW4rmBJQ") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "7494788473"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "7494788473").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "7366293185"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "7366293185").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -124,7 +124,7 @@ Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘ�
 
     ABOUT_MSG = """
 - 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/{}>{}</a>
-- 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=@itzdaxx</a>
+- 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=@qrynn</a>
 - 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : Pyrogram
 - 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥
 - 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈𝖣𝖡
