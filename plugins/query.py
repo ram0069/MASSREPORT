@@ -76,10 +76,10 @@ async def handle_Query(bot: Client, query: CallbackQuery):
         Btn = [
             [InlineKeyboardButton(text='⛑️𝖧𝖤𝖫𝖯🚁', callback_data='help'), InlineKeyboardButton(
                 text='🌀𝖡𝖮𝖳 𝖲𝖳𝖠𝖳𝖴𝖲✳️', callback_data='server')],
-            [InlineKeyboardButton(text='📰𝖴𝖯𝖣𝖠𝖳𝖤🗞️', url='https://t.me/ALLTYPECC'),
+            [InlineKeyboardButton(text='📰𝖴𝖯𝖣𝖠𝖳𝖤🗞️', url='https://t.me/qrynn'),
              InlineKeyboardButton(text='🤖𝖡𝖮𝖳 𝖨𝖭𝖥𝖮ℹ️', callback_data='about')],
             [InlineKeyboardButton(text='🧑‍💻𝖣𝖤𝖵⌨️',
-                                  url='https://t.me/itzdaxx')]
+                                  url='https://t.me/qrynn')]
         ]
 
         await query.message.edit(text=Txt.START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
